@@ -20,7 +20,7 @@ const Dashboard = () => {
   return (
     <Box m="20px">
       {/* HEADER */}
-      {/* <Box display="flex" justifyContent="space-between" alignItems="center">
+      <Box display="flex" justifyContent="space-between" alignItems="center">
         <Header title="DASHBOARD" subtitle="Welcome to your dashboard" />
 
         <Box>
@@ -37,7 +37,7 @@ const Dashboard = () => {
             Download Reports
           </Button>
         </Box>
-      </Box> */}
+      </Box>
 
       {/* GRID & CHARTS */}
       <Box
@@ -47,7 +47,7 @@ const Dashboard = () => {
         gap="20px"
       >
         {/* ROW 1 */}
-        {/* <Box
+        <Box
           gridColumn="span 3"
           backgroundColor={colors.primary[400]}
           display="flex"
@@ -65,8 +65,8 @@ const Dashboard = () => {
               />
             }
           />
-        </Box> */}
-        {/* <Box
+        </Box>
+        <Box
           gridColumn="span 3"
           backgroundColor={colors.primary[400]}
           display="flex"
@@ -84,8 +84,8 @@ const Dashboard = () => {
               />
             }
           />
-        </Box> */}
-        {/* <Box
+        </Box>
+        <Box
           gridColumn="span 3"
           backgroundColor={colors.primary[400]}
           display="flex"
@@ -103,8 +103,8 @@ const Dashboard = () => {
               />
             }
           />
-        </Box> */}
-        {/* <Box
+        </Box>
+        <Box
           gridColumn="span 3"
           backgroundColor={colors.primary[400]}
           display="flex"
@@ -122,10 +122,10 @@ const Dashboard = () => {
               />
             }
           />
-        </Box> */}
+        </Box>
 
         {/* ROW 2 */}
-        {/* <Box
+        <Box
           gridColumn="span 8"
           gridRow="span 2"
           backgroundColor={colors.primary[400]}
@@ -164,7 +164,7 @@ const Dashboard = () => {
           <Box height="250px" m="-20px 0 0 0">
             <LineChart isDashboard={true} />
           </Box>
-        </Box> */}
+        </Box>
         <Box
           gridColumn="span 4"
           gridRow="span 2"
@@ -217,7 +217,7 @@ const Dashboard = () => {
         </Box>
 
         {/* ROW 3 */}
-        {/* <Box
+        <Box
           gridColumn="span 4"
           gridRow="span 2"
           backgroundColor={colors.primary[400]}
@@ -242,8 +242,8 @@ const Dashboard = () => {
             </Typography>
             <Typography>Includes extra misc expenditures and costs</Typography>
           </Box>
-        </Box> */}
-        {/* <Box
+        </Box>
+        <Box
           gridColumn="span 4"
           gridRow="span 2"
           backgroundColor={colors.primary[400]}
@@ -258,8 +258,8 @@ const Dashboard = () => {
           <Box height="250px" mt="-20px">
             <BarChart isDashboard={true} />
           </Box>
-        </Box> */}
-        {/* <Box
+        </Box>
+        <Box
           gridColumn="span 4"
           gridRow="span 2"
           backgroundColor={colors.primary[400]}
@@ -275,7 +275,7 @@ const Dashboard = () => {
           <Box height="200px">
             <GeographyChart isDashboard={true} />
           </Box>
-        </Box> */}
+        </Box>
       </Box>
     </Box>
   );
